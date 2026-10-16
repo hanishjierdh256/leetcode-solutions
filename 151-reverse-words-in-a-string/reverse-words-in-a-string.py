@@ -1,13 +1,7 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
-        s += " "
-        sentence = []
-        temp = []
-        for i in range(len(s)):
-            if s[i] not in " ":
-                temp.append(s[i])
-            else:
-                sentence.insert(0, "".join(temp))
-                temp = []
-        sentence = [x for x in sentence if x != "" ]
-        return " ".join(sentence)        
+        slist = s.split()
+        revlist = []
+        for i in range(len(slist)):
+            revlist.insert(0, slist[i])
+        return " ".join(revlist)
