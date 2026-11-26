@@ -7,21 +7,22 @@
 class Solution:
     def pathSum(self, root: TreeNode | None, targetSum: int) -> int:
         total = 0
-        def bfscount(root, val):
+        def dfscount(root, val):
             nonlocal total
             if (root is None):
                 return
             val += root.val
             if (val == targetSum):
                 total += 1
-            bfscount(root.left, val)
-            bfscount(root.right, val)
-        def bfs(root):
+            dfscount(root.left, val)
+            dfscount(root.right, val)
+
+        def dfs(root):
             if (root is None):
-                return 0
-            else:
-                bfscount(root, 0)
-                return bfs(root.left) + bfs(root.right)
-        bfs(root)
+                return
+            dfscount(root, 0)
+            return dfs(root.left), dfs(root.right)
+
+        dfs(root)
         return total
 
