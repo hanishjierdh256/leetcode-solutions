@@ -2,16 +2,16 @@
 
 Python solutions to LeetCode problems, synced automatically with [LeetSync](https://github.com/LeetSync/LeetSync). I'm practicing data structures and algorithms to prepare for software development internships. I solve each problem on my own first, then review other solutions and note what I learned.
 
-![Solved](https://img.shields.io/badge/solved-36-blue) ![Language](https://img.shields.io/badge/language-Python-3776AB) [![LeetCode](https://img.shields.io/badge/LeetCode-hanishjierdh256-FFA116)](https://leetcode.com/u/hanishjierdh256/)
+![Solved](https://img.shields.io/badge/solved-42-blue) ![Language](https://img.shields.io/badge/language-Python-3776AB) [![LeetCode](https://img.shields.io/badge/LeetCode-hanishjierdh256-FFA116)](https://leetcode.com/u/hanishjierdh256/)
 
 ## Progress
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | 15 |
-| 🟡 Medium | 21 |
+| 🟢 Easy | 16 |
+| 🟡 Medium | 26 |
 | 🔴 Hard | 0 |
-| **Total** | **36** |
+| **Total** | **42** |
 
 ## How this repo works
 
@@ -22,4 +22,4 @@ Each problem lives in its own folder, `<number>-<slug>/`, created by LeetSync wh
 - GitHub: [hanishjierdh256](https://github.com/hanishjierdh256)
 - LeetCode: [hanishjierdh256](https://leetcode.com/u/hanishjierdh256/)
 
-<sub>Progress last updated 2026-11-26.</sub>
+<sub>Progress last updated 2026-11-27.</sub>
